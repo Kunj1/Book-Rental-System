@@ -45,23 +45,23 @@ This project is a backend API for a Book Rental System.
 
 ## Interacting with the Deployed API
 
-The API is deployed at: [Your Render.com URL]
+The API is deployed at: [https://book-rental-system-lnmk.onrender.com]
 
 You can interact with the API using tools like cURL, Postman, or any HTTP client. Here are some example requests:
 
 1. Get all books:
    ```
-   GET https://your-render-url.onrender.com/api/books
+   GET https://book-rental-system-lnmk.onrender.com/api/books
    ```
 
 2. Search for books:
    ```
-   GET https://your-render-url.onrender.com/api/books/search?name=fiction&minRent=50&maxRent=100
+   GET https://book-rental-system-lnmk.onrender.com/api/books/search?name=fiction&minRent=50&maxRent=100
    ```
 
 3. Issue a book:
    ```
-   POST https://your-render-url.onrender.com/api/transactions/issue
+   POST https://book-rental-system-lnmk.onrender.com/api/transactions/issue
    Content-Type: application/json
 
    {
@@ -73,7 +73,7 @@ You can interact with the API using tools like cURL, Postman, or any HTTP client
 
 4. Return a book:
    ```
-   POST https://your-render-url.onrender.com/api/transactions/return
+   POST https://book-rental-system-lnmk.onrender.com/api/transactions/return
    Content-Type: application/json
 
    {
