@@ -49,6 +49,8 @@ This project is a backend API for a Book Rental System.
 
 The API is deployed at: [https://book-rental-system-lnmk.onrender.com]
 
+#### [Since it is deployed on Render as a free instance, it will spin down with inactivity, which can delay requests by 50 seconds or more.]
+
 You can interact with the API using tools like cURL, Postman, or any HTTP client. Here are some example requests:
 
 1. Get all books:
