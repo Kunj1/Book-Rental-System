@@ -16,7 +16,9 @@ This project is a backend API for a Book Rental System.
 - Express.js
 - TypeScript
 - MongoDB (with Mongoose ODM)
-- Jest for testing
+- Winston (for logging)
+- express-mongo-sanitize (for security against NoSQL injection)
+- Jest (for testing)
 
 ## API Endpoints
 
