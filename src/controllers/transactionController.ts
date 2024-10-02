@@ -64,7 +64,6 @@ export const returnBook = async (req: Request, res: Response, next: NextFunction
       return res.status(400).json({ message: 'Return date must not be earlier than the issue date' });
     }
 
-    // Calculate the number of days, ensuring it's at least 1
     const daysRented = Math.max(1, Math.ceil((returnDateObj.getTime() - issueDateObj.getTime()) / (1000 * 3600 * 24)));
     const rentAmount = daysRented * book.rentPerDay;
 
