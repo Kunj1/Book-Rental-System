@@ -50,7 +50,7 @@ This project is a backend API for a Book Rental System.
 The API is deployed at: [https://book-rental-system-lnmk.onrender.com]
 
 #### [Since it is deployed on Render as a free instance, it will spin down with inactivity, which can delay requests by 50 seconds or more.]
-#### Update: To fix this, I set up a periodic 5 minute ping service on UpTimeRobot & Cron-job.org to keep the server active ;)
+#### Update: To fix this, I set up a periodic 13 minute ping service on UpTimeRobot & a 10 minute ping service on Cron-job.org to keep the server active [Render winds down after an inactivity of 15 mins] ;)
 
 You can interact with the API using tools like cURL, Postman, or any HTTP client. Here are some example requests:
 
